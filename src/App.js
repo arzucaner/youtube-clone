@@ -9,11 +9,14 @@ function App() {
     <div>
       <BrowserRouter>
         <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="videos/:id" element={<Detail />} />
-          <Route path="search/: keyword" element={<Search />} />
-        </Routes>
+        <PageContainer>
+          <Sidebar />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="videos/:id" element={<Detail />} />
+            <Route path="search/: keyword" element={<Search />} />
+          </Routes>
+        </PageContainer>
       </BrowserRouter>
     </div>
   );
