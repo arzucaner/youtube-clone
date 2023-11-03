@@ -5,12 +5,14 @@ import Filter from './../component/Filter';
 const Home = () => {
   return (
     <div class='m-3'>
-      <Filter/>
-      <HomeCard/>
-      <HomeCard/>
-      <HomeCard/>
-      <HomeCard/>
-      <HomeCard/>
+      <Filter />
+      <div className='flex flex-wrap m-2'>
+        <HomeCard />
+        <HomeCard />
+        <HomeCard />
+        <HomeCard />
+        <HomeCard />
+      </div>
     </div>
   );
 }

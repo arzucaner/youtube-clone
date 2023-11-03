@@ -3,6 +3,8 @@ import Home from './pages/Home';
 import Detail from './pages/Detail';
 import Search from './pages/Search';
 import Navbar from './component/Navbar';
+import PageContainer from './containers/PageContainer';
+import Sidebar from './component/Sidebar';
 
 function App() {
   return (
@@ -10,8 +12,8 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <PageContainer>
-          <Sidebar />
-          <Routes>
+          <Sidebar/>
+            <Routes>
             <Route path="/" element={<Home />} />
             <Route path="videos/:id" element={<Detail />} />
             <Route path="search/: keyword" element={<Search />} />
