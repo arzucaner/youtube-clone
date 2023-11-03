@@ -3,7 +3,7 @@ import images from '../assets/images/images'
 
 const HomeCard = () => {
   return (
-    <div className='w-[300px] m-3 cursor-pointer'>
+    <div className='w-[280px] m-3 cursor-pointer'>
       <img src={images.img} alt="" />
       <div Classname='font-bold mt-1'>Title Title Title Title Title Title Title Title Title Title</div>
       <div className='text-xs mt-1 tracking-wider text-gray-700'>Arzu Caner</div>
