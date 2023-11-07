@@ -1,17 +1,28 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
 import HomeCard from './../component/HomeCard';
 import Filter from './../component/Filter';
+import homeAction from '../redux/actions/HomeData';
+
 
 const Home = () => {
+  const dispatch = useDispatch();
+  const {getVideos} = useSelector(state => state.getVideos);
+
+  useEffect(()=>{
+    dispatch(homeAction('new'))
+  },[dispatch])
+
+  console.log("getVideos", getVideos)
   return (
     <div class='m-3'>
       <Filter />
       <div className='flex flex-wrap m-2'>
-        <HomeCard />
-        <HomeCard />
-        <HomeCard />
-        <HomeCard />
-        <HomeCard />
+        {
+          getVideos?.items.map((video,i) => (
+            <HomeCard key={i} video={video}/>
+          ))  
+        }        
       </div>
     </div>
   );
