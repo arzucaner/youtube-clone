@@ -1,6 +1,7 @@
 import React, {useEffect} from 'react';
 import { useparams, useSelector } from 'react-redux';
 import { useDispatch, useSelector } from 'react-redux';
+import DetailCard from '../component/DetailCard';
 
 
 const Detail = () => {
@@ -17,7 +18,7 @@ const Detail = () => {
   
   return (
     <div>
-      Detail
+      <DetailCard/>
     </div>
   )
 }
