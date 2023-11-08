@@ -10,7 +10,7 @@ const Detail = () => {
 
 
   useEffect(()=>{
-
+    dispatch(detailaction(id))
   },[dispatch])
 
   console.log(getVideo, "getVideo");

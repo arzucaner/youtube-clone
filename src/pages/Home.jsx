@@ -8,15 +8,16 @@ import homeAction from '../redux/actions/HomeData';
 const Home = () => {
   const dispatch = useDispatch();
   const {getVideos} = useSelector(state => state.getVideos);
+  const [letter, setletter] = useState('new')
 
   useEffect(()=>{
-    dispatch(homeAction('new'))
-  },[dispatch])
+    dispatch(homeAction('letter'))
+  },[dispatch, letter])
 
   console.log("getVideos", getVideos)
   return (
     <div class='m-3'>
-      <Filter />
+      <Filter setLetter={setLetter} />
       <div className='flex flex-wrap m-2'>
         {
           getVideos?.items.map((video,i) => (
