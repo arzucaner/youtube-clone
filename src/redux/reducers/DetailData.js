@@ -1,5 +1,5 @@
 
-const detailReducer = (state = {getVideos: []}, action) => {
+const detailReducer = (state = {getVideo: []}, action) => {
     switch (action.type) {
         case "GET_VIDEO":
             return {

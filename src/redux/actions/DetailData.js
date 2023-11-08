@@ -9,16 +9,10 @@ const detailAction = (id) => async (dispatch) => {
         const options = {
             method: 'GET',
             url: 'https://youtube-v31.p.rapidapi.com/captions',
-            params: {
-                part: 'snippet',
-                //videoId: 'M7FIvfx5J10'                
-                q: id,
-                maxresults: '50'
-            },
-
-                headers: {
-                    'X-RapidAPI-Key': apiKey,
-                    'X-RapidAPI-Host': 'youtube-v31.p.rapidapi.com'
+            params: {part: 'contentDetails, snippet, statisttics', id: id},
+            headers: {
+                'X-RapidAPI-Key': apiKey,
+                'X-RapidAPI-Host': 'youtube-v31.p.rapidapi.com'               
                 }
             };
 
