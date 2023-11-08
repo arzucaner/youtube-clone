@@ -1,6 +1,6 @@
 import React from 'react';
 
-const DetailCard = () => {
+const DetailCard = ({video}) => {
   return (
     <div>
       DetailCard

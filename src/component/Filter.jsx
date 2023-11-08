@@ -1,7 +1,7 @@
 import React from 'react';
 import dataFilter from '../assets/data/dataFilter';
 
-const Filter = () => {
+const Filter = ({setLetter}) => {
   return (
     <div className='flex items-center overflow-x-auto'>
       {
