@@ -18,7 +18,7 @@ This project endeavors to faithfully replicate the fundamental features that def
 
 ## Demo
 
-[Demo](https://www.youtube.com/watch?v=ViAYjc-SEtA)
+
 
 ## Features
 
