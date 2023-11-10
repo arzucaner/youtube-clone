@@ -5,7 +5,7 @@ import icons from '../assets/icons';
 
 const DetailCard = ({ video }) => {
   return (
-    <div className='max-w-[650px] m-20 my-10'>
+    <div className='max-w-[650px] mx-20 my-10'>
       <ReactPlayer url={`https://youtube.com/watch?v=${video?.id}`} />
       <div className='font-bold text-2xl mt-1'>{video?.snippet?.title}</div>
       <div className='space-x-2 text-gray-800 mt-1'>

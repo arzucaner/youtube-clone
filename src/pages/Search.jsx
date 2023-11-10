@@ -1,9 +1,10 @@
 import React from 'react';
+import SearchCard from '../component/SearchCard';
 
 const Search = () => {
   return (
     <div>
-      Search
+     <SearchCard/>
     </div>
   )
 }
