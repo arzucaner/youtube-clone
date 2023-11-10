@@ -5,7 +5,7 @@ import icons from '../assets/icons';
 
 const DetailCard = ({ video }) => {
   return (
-    <div className='max-w-[650px] m-10'>
+    <div className='max-w-[650px] m-20 my-10'>
       <ReactPlayer url={`https://youtube.com/watch?v=${video?.id}`} />
       <div className='font-bold text-2xl mt-1'>{video?.snippet?.title}</div>
       <div className='space-x-2 text-gray-800 mt-1'>
@@ -22,10 +22,11 @@ const DetailCard = ({ video }) => {
         {
           video?.snippet?.tags?.map((tag, i) => `#${tag} `)
         }
-      </div>
-      <div>
-        <span><icons.like/> {video?.statistics?.likeCount}</span>
-      </div>
+      </div>      
+      <div className='align-items text-gray-800 mt-3'>
+        <span className='align-items'><icons.like className="icon-style"/> {video?.statistics?.likeCount}</span>
+        <span className='align-items'><icons.dislike className="icon-style"/> Views</span>
+      </div>      
     </div>
   )
 }
