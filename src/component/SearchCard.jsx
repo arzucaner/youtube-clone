@@ -1,14 +1,14 @@
 import React from 'react';
 import images from '../assets/images/images';
 
-const SearchCard = () => {
+const SearchCard = ({ search }) => {
     return (
         <div className='flex space-x-2 justify-center mx-5 my-10 cursor-pointer'>
-            <img src={images.img} alt="" />
+            <img className='h-44 w-72' src={search?.snippet?.thumbnails?.high?.url} alt="" />
             <div className='w-2/3 space-y-2'>
                 <div>
-                    <div className='font-bold text-lg'>It is a long established fact that a reader will be distracted by the readable 
-                     content of a page when looking at its layout.
+                    <div className='font-bold text-lg'>It is a long established fact that a reader will be distracted by the readable
+                        content of a page when looking at its layout.
                         <div className='text-sm text-gray-700'>
                             <span>4,5 Views *</span>
                             <span>5 hours ago</span>
