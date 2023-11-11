@@ -4,7 +4,7 @@ import moment from 'moment';
 
 const SearchCard = ({ search }) => {
     return (
-        <div className='flex space-x-2 justify-center mx-5 my-10 cursor-pointer'>
+        <div onClick={() => window.location = `/videos/${search?.id?.videoID}`} className='flex space-x-2 justify-center mx-5 my-10 cursor-pointer'>
             <img className='h-44 w-72' src={search?.snippet?.thumbnails?.high?.url} alt="" />
             <div className='w-2/3 space-y-2'>
                 <div>

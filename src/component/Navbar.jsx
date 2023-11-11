@@ -20,7 +20,7 @@ const Navbar = () => {
     <div className='w-full flex items-center justify-between h-20 px-3'>
       <div className='w-3/12 flex items-center space-x-4'>
         <icons.menu className='icon-style' />
-        <img className='w-32' src={images.youtube} alt="" />
+        <img onClick={() => window.location = "/"} className='w-32 sursor-pointer' src={images.youtube} alt="" />
       </div>
       <div className='w-6/12 flex items-center space-x-4'>
         <div className='w-3/4 flex items-center'>
