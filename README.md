@@ -18,8 +18,6 @@ This project endeavors to faithfully replicate the fundamental features that def
 
 ## Demo
 
-
-
 ## Features
 
 * Three levels of difficulty: easy, medium, and high.
@@ -54,8 +52,6 @@ npm install
 npm start
 ```
 
-
-
 ## Usage
 
 1. Launch the application by following the installation instructions.
@@ -77,12 +73,11 @@ I welcome and appreciate contributions from the community. If you're interested 
 7. Push your branch to your fork on GitHub.
 8. Create a **pull request** to the original repository.
 
-
 Thank you for helping make this project better!
 
 ## Deployment
 
-This section has moved here: 
+This section has moved here: https://tubesync-youtube-clone-project.netlify.app/
 
 ## License
 
