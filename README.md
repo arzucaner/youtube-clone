@@ -1,4 +1,4 @@
-# YouTube Clone
+# TubeSync YouTube Clone
 
 This project is aimed at replicating the core functionalities of YouTube, providing users with a familiar video-sharing platform experience. As the developer behind this endeavor, I am committed to creating a robust and user-friendly application that mirrors the essence of the popular video-sharing platform.
 
@@ -20,24 +20,19 @@ This project endeavors to faithfully replicate the fundamental features that def
 
 ## Features
 
-* Three levels of difficulty: easy, medium, and high.
-* General knowledge questions of increasing complexity.
-* 30-second time limit per question.
-* Automatic progression to the next question if no answer is selected.
-* Score calculation and the ability to start a new round.
 
 ## Installation
 
 1) Clone the repository to your local machine:
 
 ```
-git clone https://github.com/arzucaner/react-triviaquest-challenge.git
+git clone https://github.com/arzucaner/youtube-clone
 ```
 
 2. Navigate to the project directory:
 
 ```
-cd React-TriviaQuest-Challenge
+cd youtube-clone
 ```
 
 3. Install the required dependencies:
@@ -54,11 +49,6 @@ npm start
 
 ## Usage
 
-1. Launch the application by following the installation instructions.
-2. Select your desired difficulty level (easy, medium, or high).
-3. Answer the multiple-choice questions within the 30-second time limit.
-4. Receive your final score at the end of the quiz.
-5. Choose to start a new round to test your knowledge again.
 
 ## Contributing
 
@@ -77,7 +67,7 @@ Thank you for helping make this project better!
 
 ## Deployment
 
-This section has moved here: https://tubesync-youtube-clone-project.netlify.app/npm star
+This section has moved here: https://tubesync-youtube-clone-project.netlify.app
 
 ## License
 
