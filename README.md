@@ -77,7 +77,7 @@ Thank you for helping make this project better!
 
 ## Deployment
 
-This section has moved here: https://tubesync-youtube-clone-project.netlify.app/
+This section has moved here: https://tubesync-youtube-clone-project.netlify.app/npm star
 
 ## License
 
