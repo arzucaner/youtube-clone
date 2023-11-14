@@ -1,6 +1,6 @@
 
 import axios from 'axios';
-require('dotenv').config();
+
 
 const apiKey = process.env.youtube_API_KEY;
 
