@@ -2,7 +2,8 @@
 import axios from 'axios';
 
 
-const apiKey = process.env.YOUTUBE_API_KEY;
+
+const apiKey = process.env.REACT_APP_YOUTUBE_API_KEY;
 
 const homeAction = (data) => async (dispatch) => {
     try {
@@ -16,21 +17,20 @@ const homeAction = (data) => async (dispatch) => {
                 maxresults: '50'
             },
 
-                headers: {
-                    'X-RapidAPI-Key': apiKey,
-                    'X-RapidAPI-Host': 'youtube-v31.p.rapidapi.com'
-                }
-            };
+            headers: {
+                'X-RapidAPI-Key': apiKey,
+                'X-RapidAPI-Host': 'youtube-v31.p.rapidapi.com'
+            }
+        };
 
-        try {
-        const response = await axios.request(options);
-        dispatch({ type: 'GET_VIDEOS', payload: response.data })
+        await axios.request(options).then(function (response) {
+            dispatch({ type: 'GET_VIDEOS', payload: response.data })
+        }).catch(function (error) {
+            console.error(error);
+        });
+
     } catch (error) {
-        console.error(error);
+        console.log(error);
     }
-
-} catch (error) {
-    console.log(error);
-}
 }
 export default homeAction

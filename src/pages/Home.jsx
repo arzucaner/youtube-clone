@@ -16,7 +16,7 @@ const Home = () => {
 
   console.log("getVideos", getVideos)
   return (
-    <div class='m-3'>
+    <div className='m-3'>
       <Filter setLetter={setLetter} />
       <div className='flex flex-wrap m-2'>
         {
