@@ -7,39 +7,39 @@ const dataSide = [
         name: "Home Page"
     },
     {
-        icon: <icons.home className='icon-style' />,
+        icon: <icons.compass className='icon-style' />,
         name: "Explore"
     },
     {
-        icon: <icons.home className='icon-style' />,
+        icon: <icons.compass className='icon-style' />,
         name: "Shorts"
     },
     {
-        icon: <icons.home className='icon-style' />,
+        icon: <icons.subscriptions className='icon-style' />,
         name: "Subscriptions"
     },
     {
-        icon: <icons.home className='icon-style' />,
+        icon: <icons.play className='icon-style' />,
         name: "Bookcase"
     },
     {
-        icon: <icons.home className='icon-style' />,
+        icon: <icons.clock className='icon-style' />,
         name: "History"
     },
     {
-        icon: <icons.home className='icon-style' />,
+        icon: <icons.play className='icon-style' />,
         name: "Your Videos"
     },
     {
-        icon: <icons.home className='icon-style' />,
+        icon: <icons.like className='icon-style' />,
         name: "Liked Videos"
     },
     {
-        icon: <icons.home className='icon-style' />,
+        icon: <icons.down className='icon-style' />,
         name: "Show More"
     },
     {
-        icon: <icons.home className='icon-style' />,
+        icon: <icons.game className='icon-style' />,
         name: "Gaming"
     },
 ];
