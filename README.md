@@ -20,6 +20,9 @@ This project endeavors to faithfully replicate the fundamental features that def
 
 ## Features
 
+* Enjoy smooth video playback and streaming capabilities for an immersive viewing experience.
+* Experience a responsive design and a user interface optimized for a pleasant and engaging user experience.
+* Engage with content creators and other users through commenting, liking, and sharing features.
 
 ## Installation
 
@@ -48,6 +51,12 @@ npm start
 ```
 
 ## Usage
+
+Enjoy smooth video playback and streaming capabilities for an immersive viewing experience.
+
+Experience a responsive design and a user interface optimized for a pleasant and engaging user experience.
+
+Engage with content creators and other users through commenting, liking, and sharing features.
 
 
 ## Contributing
