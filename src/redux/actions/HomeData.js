@@ -14,7 +14,6 @@ const homeAction = (data) => async (dispatch) => {
                 part: 'snippet',
                 //videoId: 'M7FIvfx5J10'                
                 q: data,
-                maxresults: '50'
             },
 
             headers: {
@@ -23,14 +22,13 @@ const homeAction = (data) => async (dispatch) => {
             }
         };
 
-        await axios.request(options).then(function (response) {
-            dispatch({ type: 'GET_VIDEOS', payload: response.data })
-        }).catch(function (error) {
-            console.error(error);
-        });
-
+        const response = await axios.request(options);
+        dispatch({ type: 'GET VIDEOS', payload: response.data })
     } catch (error) {
-        console.log(error);
+        console.error(error);
     }
-}
-export default homeAction
+};
+
+
+
+export default homeAction;
