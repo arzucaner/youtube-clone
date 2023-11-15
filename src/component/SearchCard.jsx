@@ -1,5 +1,5 @@
 import React from 'react';
-import images from '../assets/images/images';
+import images from '../assets/images';
 import moment from 'moment';
 
 const SearchCard = ({ search }) => {
