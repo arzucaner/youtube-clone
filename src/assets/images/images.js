@@ -2,7 +2,10 @@ import youtube from './youtube.png';
 import img from './img.gif';
 
 
-export default {
+const images = {
   youtube: youtube,
-  img : img
-}
+  img: img
+};
+
+export default images;
+
