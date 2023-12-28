@@ -15,8 +15,6 @@ This project aims to replicate the core functionalities of YouTube, providing us
 
 This project endeavours to faithfully replicate the fundamental features that define YouTube, presenting users with an immersive and familiar video-sharing platform experience. We aim to capture the essence of what makes YouTube a leading platform, offering users a seamless and enjoyable environment for uploading, watching, and interacting with videos.
 
-## Demo
-
 ## Features
 
 * Enjoy smooth video playback and streaming capabilities for an immersive viewing experience.
