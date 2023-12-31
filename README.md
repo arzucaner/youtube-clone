@@ -60,7 +60,7 @@ Engage with content creators and other users through commenting, liking, and sha
 
 I welcome and appreciate contributions from the community. If you're interested in contributing to this project, please follow these guidelines:
 
-1. **Fork** the project repository on GitHub.
+1. **Fork** the project repository on GitHub. "https://github.com/arzucaner/youtube-clone"
 2. **Clone** your fork to your local machine.
 3. Create a new **branch** for your feature or bug fix.
 4. Make your changes and ensure that your code is properly formatted.
